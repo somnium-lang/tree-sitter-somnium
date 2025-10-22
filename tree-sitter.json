@@ -1,0 +1,39 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "somnium",
+      "camelcase": "Somnium",
+      "title": "Somnium",
+      "scope": "source.somnium",
+      "file-types": [
+        "sm"
+      ],
+      "injection-regex": "^somnium$",
+      "class-name": "TreeSitterSomnium"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "Apache 2.0",
+    "description": "Somnium grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "Sanne Ladage",
+        "email": "sanne@dreamlogics.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/somnium-lang/tree-sitter-somnium"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
