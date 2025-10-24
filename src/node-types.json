@@ -1,0 +1,53 @@
+[
+  {
+    "type": "COMMENT",
+    "named": true,
+    "extra": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "DOC_BLOCK",
+          "named": true
+        },
+        {
+          "type": "DOC_LINE",
+          "named": true
+        },
+        {
+          "type": "LINE_COMMENT",
+          "named": true
+        },
+        {
+          "type": "MULTI_LINE_COMMENT",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "WHITESPACE",
+    "named": true,
+    "root": true,
+    "extra": true,
+    "fields": {}
+  },
+  {
+    "type": "DOC_BLOCK",
+    "named": true
+  },
+  {
+    "type": "DOC_LINE",
+    "named": true
+  },
+  {
+    "type": "LINE_COMMENT",
+    "named": true
+  },
+  {
+    "type": "MULTI_LINE_COMMENT",
+    "named": true
+  }
+]
